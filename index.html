@@ -1,37 +1,78 @@
 <!DOCTYPE html>
-<html lang=en>
-    <head>
-        <meta charset=utf-8>
-        <meta http-equiv=X-UA-Compatible content="IE=edge">
-        <meta name=viewport content="width=device-width,initial-scale=1">
-        <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-        <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-        <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-        <link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5>
-        <link rel=manifest href=/site.webmanifest>
-        <meta name=msapplication-TileColor content=#ffc40d><meta name=theme-color content=#ffffff>
-        <title>Enactus UW</title>
-        <link href=/css/about.6a32ca21.css rel=prefetch>
-        <link href=/js/about.f43f8de9.js rel=prefetch>
-        <link href=/css/app.759272ec.css rel=preload as=style>
-        <link href=/js/app.d3cf5172.js rel=preload as=script>
-        <link href=/js/chunk-vendors.f0be6bed.js rel=preload as=script>
-        <link href=/css/app.759272ec.css rel=stylesheet>
-    </head>
-    <body>
-        <noscript>
-            <strong>
-                We're sorry but Enactus UW doesn't work properly without JavaScript enabled.
-                Please enable it to continue.
-            </strong>
-        </noscript>
-        <div id=app>test</div>
-        <script src=/js/chunk-vendors.f0be6bed.js></script>
-        <script src=/js/app.d3cf5172.js></script>
-    </body>
+<html>
+	<head>
+		<title>UW Enactus</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<div id="main">
+			<header>
+				<h2 id="logo"><span>UW</span> Enactus</h2>
+				<div id="nav">
+					<a class="nav-items">About Us</a>
+					<a class="nav-items">Projects</a>
+					<a class="nav-items">Sponsors</a>
+					<a class="nav-items">Blog</a>
+					<a class="nav-items">Contact Us</a>
+				</div>
+			</header>
+			<div id="body">
+				<div id="hero">
+					<div id="hero-txt">
+						<p id="hero-txt-head">
+							Change starts<br>with You
+						</p>
+						<button>Learn More</button>
+					</div>
+					<div id="hero-img">
+						<img src="./img/hero.jpg" height="500" width="500">
+					</div>
+				</div>
+				<div id="projects">
+					<h1 id="projects-head">Projects</h1>
+					<div id="projects-body">
+						<div class="project">
+							<img src="./img/yfp-sq.jpg" height="250" width="250"><br>
+							<h2>Young Funds Program</h2>
+						</div>
+						<div class="project">
+							<img src="./img/fis-sq.jpg" height="250" width="250"><br>
+							<h2>Fem in Stem</h2>
+						</div>
+						<div class="project">
+							<img src="./img/pw-sq.jpg" height="250" width="250"><br>
+							<h2>Pick Waste</h2>
+						</div>
+					</div>
+				</div>
+				<div id="goals">
+					<h1 id="goals-head">Our Goals</h1>
+					<div class="goal">
+						<img src="#" height="250" width="250">
+						<div class="goal-txt">
+							<h2>Developing Our Students</h2>
+							<p>Build a welcoming, engaging and inclusive community where students can develop their skills and broaden their perspectives outside of a classroom setting.</p>
+						</div>
+					</div>
+					<div class="goal">
+						<div class="goal-txt">
+							<h2>Providing Opportunities</h2>
+							<p>We create unparalleled opportunities for students to make a positive impact in the community.</p>
+						</div>
+						<img src="#" height="250" width="250">
+					</div>
+					<div class="goal">
+						<img src="#" height="250" width="250">
+						<div class="goal-txt">
+							<h2>Progressing</h2>
+							<p>Continuously improving what we do and building upon what we have accomplished in the past. Striving to ensure that we have an excellent organizational culture and a sense of unity within the Enactus Waterloo family.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer></footer>
+		</div>
+	</body>
 </html>
-<style lang=scss>
-    body {
-        margin: 0;
-    }
-</style>
